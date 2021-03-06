@@ -1,9 +1,8 @@
 # Android Login Registration using PHP and MySQL
 
-# How To Run
-1. Set up new db 'mydb'
-2. Add / create table using this query:
-==============================
+Create a new db "mydb"
+Add table using this query:
+===========================
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -12,5 +11,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 )
-==============================
-3. Run the App
+===========================
+
+# RUN THE APP

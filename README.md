@@ -3,8 +3,7 @@
 # How To Run
 1. Set up new db 'mydb'
 2. Add / create table using this query:
-==============================
-DROP TABLE IF EXISTS `users`;
+3. DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
@@ -12,5 +11,4 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 )
-==============================
-3. Run the App
+4. Run the App
